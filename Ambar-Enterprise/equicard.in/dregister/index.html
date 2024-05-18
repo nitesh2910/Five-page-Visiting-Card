@@ -1,0 +1,255 @@
+
+
+
+
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from equicard.in/dregister/index by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Dec 2023 05:32:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta description -->
+    <meta name="description" content="">
+    <meta name="author" content="ThemeTags">
+    <!--title-->
+    <title>Equicard</title>
+
+    <!--favicon icon-->
+    <link rel="icon" href="../assets/web-assets/img/favicon.png" type="image/png">
+
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7COpen+Sans&amp;display=swap"
+          rel="stylesheet">
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="../assets/web-assets/css/bootstrap.min.css">
+    <!--Magnific popup css-->
+    <link rel="stylesheet" href="../assets/web-assets/css/magnific-popup.css">
+    <!--Themify icon css-->
+    <link rel="stylesheet" href="../assets/web-assets/css/themify-icons.css">
+    <!--animated css-->
+    <link rel="stylesheet" href="../assets/web-assets/css/animate.min.css">
+    <!--ytplayer css-->
+    <link rel="stylesheet" href="../assets/web-assets/css/jquery.mb.YTPlayer.min.css">
+    <!--Owl carousel css-->
+    <link rel="stylesheet" href="../assets/web-assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/web-assets/css/owl.theme.default.min.css">
+    <!--custom css-->
+    <link rel="stylesheet" href="../assets/web-assets/css/style.css">
+    <!--responsive css-->
+    <link rel="stylesheet" href="../assets/web-assets/css/responsive.css">
+    <style>
+        .color-primary {
+            color: #6730e3;
+        }
+        .input-icon span {
+            padding: 18px 15px;
+            border-left: 2px solid #6730e3;
+            position: absolute;
+            font-size: 18px;
+            height: calc(3.4rem + 2px);
+            border-radius: 4px;
+        }
+        .solid-btn {
+            color: #fff;
+            -webkit-box-shadow: 0 20px 30px 0 rgba(67,37,204,.2);
+            box-shadow: 0 20px 30px 0 rgba(67,37,204,.2);
+            background: #6730e3;
+            border: 2px solid #6730e3;
+            border-radius: 30px;
+        }
+        .background-img:before {
+            position: absolute;
+            content: '';
+            /*background-image: linear-gradient(to right, rgba(32, 40, 119, 0.95), rgba(55, 46, 149, 0.95), rgba(83, 49, 177, 0.90), rgba(114, 48, 205, 0.85), rgba(150, 41, 230, 0.95));*/
+            background-color:#6730e3;
+            opacity:0.9;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!--body content wrap start-->
+    <div class="main">
+
+        <!--hero section start-->
+        <section class="hero-section full-screen login-bg bg-cover background-img">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-center">
+
+                    <div class="col-12 col-md-6 col-lg-6 col-xl-4">
+                        <div class="login-signup-wrap gray-light-bg p-4 px-lg-5 my-4">
+                            <div class="text-center mb-3">
+                                <a href="../home.html">
+                                    <img src="../../api.equicard.in/ExternalContents/Images/SiteLogo/09512022035132.png" alt="">
+                                </a>
+                            </div>
+                            <!-- Heading -->
+                            <h3 class="text-center mb-3">
+                                Distributor Register
+                            </h3>
+
+                            <!-- Form -->
+                            <div class="login-signup-form">
+                                <div class="form-group">
+                                    <!-- Label -->
+                                    <label class="pb-1">
+                                        Your Name *
+                                    </label>
+                                    <!-- Input group -->
+                                    <div class="input-group input-group-merge">
+                                        <div class="input-icon">
+                                            <span class="ti-user color-primary"></span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Enter your name" id="txtFullName" required="required">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <!-- Label -->
+                                    <label class="pb-1">
+                                        Email Address *
+                                    </label>
+                                    <!-- Input group -->
+                                    <div class="input-group input-group-merge">
+                                        <div class="input-icon">
+                                            <span class="ti-email color-primary"></span>
+                                        </div>
+                                        <input type="email" class="form-control" placeholder="name@address.com" id="txtEmailId" required="required">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <!-- Label -->
+                                    <label class="pb-1">
+                                        Mobile No *
+                                    </label>
+                                    <!-- Input group -->
+                                    <div class="input-group input-group-merge">
+                                        <div class="input-icon">
+                                            <span class="ti-mobile color-primary"></span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Enter your Mobile no" id="txtMobileNo">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <!-- Label -->
+                                    
+                                    <label class="pb-1">
+                                        Any Valid ID Proof *
+                                    </label>
+                                    <!-- Input group -->
+                                    <div class="input-group input-group-merge">
+                                        <div class="input-icon">
+                                            <span class="ti-credit-card color-primary"></span>
+                                        </div>
+                                        <input class="form-control" onchange="getPanBase64()" title="" type="file" id="PanCard" accept="image/*">
+                                    </div>
+                                </div>
+
+                                <!--<div class="form-group">-->
+                                    <!-- Label -->
+                                    <!--<label class="pb-1">
+                                        Aadhaar Card *
+                                    </label>-->
+                                    <!-- Input group -->
+                                    <!--<div class="input-group input-group-merge">
+                                        <div class="input-icon">
+                                            <span class="ti-credit-card color-primary"></span>
+                                        </div>
+                                        <input class="form-control" onchange="getAadharBase64()" title="" type="file" id="AdharCard" accept="image/*">
+                                    </div>
+                                </div>-->
+                                <!-- Password -->
+                                <!--<div class="form-group">-->
+                                    <!-- Label -->
+                                    <!--<label class="pb-1">
+                                        Password *
+                                    </label>-->
+                                    <!-- Input group -->
+                                    <!--<div class="input-group input-group-merge">
+                                        <div class="input-icon">
+                                            <span class="ti-lock color-primary"></span>
+                                        </div>
+                                        <input type="password" class="form-control" placeholder="Enter your password" id="txtPassword">
+                                    </div>
+                                </div>-->
+
+                                <!-- Password -->
+                                <!--<div class="form-group">-->
+                                    <!-- Label -->
+                                    <!--<label class="pb-1">
+                                        Confirm Password *
+                                    </label>-->
+                                    <!-- Input group -->
+                                    <!--<div class="input-group input-group-merge">
+                                        <div class="input-icon">
+                                            <span class="ti-lock color-primary"></span>
+                                        </div>
+                                        <input type="password" class="form-control" placeholder="Enter Confirm password" id="txtCPassword">
+                                    </div>
+                                </div>-->
+
+                                <div class="form-check d-flex align-items-center text-center">
+                                    <input type="checkbox" class="form-check-input mt-0 mr-3" id="exampleCheck1">
+                                    <label class="form-check-label small" for="exampleCheck1">I agree your <a href="../distributor-terms.html" target="_blank">terms and conditions</a></label>
+                                </div>
+
+                                <!-- Submit -->
+                                <button class="btn btn-lg btn-block solid-btn border-radius mt-4 mb-3" id="RegisterBtn" disabled onclick="register()">
+                                    Sign up
+                                </button>
+
+                                <!-- Link -->
+                                <div class="text-center">
+                                    <small class="text-muted text-center">
+                                        Already have an account? <a href="../dlogin/index.html">Log in</a>.
+                                    </small>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- / .row -->
+            </div>
+        </section>
+        <!--hero section end-->
+
+    </div>
+    <!--body content wrap end-->
+    <div id="divLoading" style="display:none;">
+        <img src="../assets/web-assets/img/loading.gif" style="width:100px;" />
+    </div>
+    <!--jQuery-->
+    <script src="../assets/web-assets/js/jquery-3.5.0.min.js"></script>
+    <!--Popper js-->
+    <script src="../assets/web-assets/js/popper.min.js"></script>
+    <!--Bootstrap js-->
+    <script src="../assets/web-assets/js/bootstrap.min.js"></script>
+    <!--Magnific popup js-->
+    <script src="../assets/web-assets/js/jquery.magnific-popup.min.js"></script>
+    <!--jquery easing js-->
+    <script src="../assets/web-assets/js/jquery.easing.min.js"></script>
+    <!--jquery ytplayer js-->
+    <script src="../assets/web-assets/js/jquery.mb.YTPlayer.min.js"></script>
+    <!--wow js-->
+    <script src="../assets/web-assets/js/wow.min.js"></script>
+    <!--owl carousel js-->
+    <script src="../assets/web-assets/js/owl.carousel.min.js"></script>
+    <!--countdown js-->
+    <script src="../assets/web-assets/js/jquery.countdown.min.js"></script>
+    <!--custom js-->
+    <script src="../assets/web-assets/js/scripts.js"></script>
+    <script src="../assets/JqueryAjax/Distributor/Register.js"></script>
+    <script src="../assets/web-assets/js/notify.min.js"></script>
+</body>
+
+<!-- Mirrored from equicard.in/dregister/index by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Dec 2023 05:32:45 GMT -->
+</html>
